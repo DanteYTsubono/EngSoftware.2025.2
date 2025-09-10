@@ -1,23 +1,26 @@
-# EngSoftware.2025.2
+#  WhatsApp Future Message  
 
-WhatsApp Future Message
+Uma aplicação inspirada no [FutureMe](https://www.futureme.org/), mas feita para o **WhatsApp**.  
+A ideia é simples: escreva uma mensagem hoje e defina uma data no futuro para recebê-la diretamente no seu WhatsApp.  
 
-Este projeto tem como objetivo criar uma aplicação semelhante ao FutureMe
-, mas para o WhatsApp.
-A ideia é simples: você escreve uma mensagem hoje e define uma data no futuro para recebê-la diretamente no seu WhatsApp.
+---
 
-Propósito
+##  Objetivo  
+- Enviar **mensagens para si mesmo no futuro**.  
+- Criar uma espécie de **cápsula do tempo digital** entregue pelo WhatsApp.  
+- Explorar conceitos de **agendamento** e **automação de mensagens**.  
 
-Permitir que pessoas enviem mensagens para si mesmas no futuro.
+---
 
-Criar uma experiência pessoal e reflexiva, como uma “cápsula do tempo digital” entregue pelo WhatsApp.
+##  Exemplos de uso  
+- Escrever uma carta para o seu “eu do futuro”.  
+- Definir lembretes de longo prazo (ex: metas, promessas, sonhos).  
+- Guardar mensagens motivacionais ou reflexivas para datas especiais.  
 
-Explorar conceitos de agendamento de tarefas e automação de mensagens em aplicações reais.
+---
 
-Exemplos de uso
-
-Escrever uma carta para o seu “eu do futuro”.
-
-Definir lembretes de longo prazo (ex: metas, sonhos, promessas).
-
-Guardar mensagens motivacionais ou reflexivas para serem entregues em datas especiais.
+##  Futuras melhorias  
+- Interface web para criação e agendamento das mensagens.  
+- Banco de dados para armazenamento das mensagens futuras.  
+- Integração com autenticação para múltiplos usuários.  
+- Possibilidade de enviar mensagens para amigos ou grupos.  
