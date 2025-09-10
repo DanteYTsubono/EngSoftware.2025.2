@@ -1,3 +1,6 @@
+Dante Yssonobu Tsubono - 163667
+Matheus da Silva Pener - 163954
+
 #  WhatsApp Future Message  
 
 Uma aplicação inspirada no [FutureMe](https://www.futureme.org/), mas feita para o **WhatsApp**.  
