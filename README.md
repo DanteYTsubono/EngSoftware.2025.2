@@ -27,3 +27,14 @@ A ideia é simples: escreva uma mensagem hoje e defina uma data no futuro para r
 - Banco de dados para armazenamento das mensagens futuras.  
 - Integração com autenticação para múltiplos usuários.  
 - Possibilidade de enviar mensagens para amigos ou grupos.  
+
+
+##  TechStack e Arquitetura
+- Padrão de Arquitetura: MVC (Model-View-Controller)
+- CI/CD: GitHub Actions
+- Banco de Dados: DynamoDB AWS (Amazon Web Service)
+- FrontEnd: Sites OpenSource que serão adaptados ao projeto
+- Linguagem Principal: Phyton 
+- Deploy Inicial: Render
+- Deploy Futuro: AWS EC2
+- Integração: Meta WhatsApp Cloud API

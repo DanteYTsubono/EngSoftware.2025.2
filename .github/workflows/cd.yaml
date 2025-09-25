@@ -1,7 +1,7 @@
 name: CD Pipeline
 
 on:
-  workflow_dispatch:   # execução manual no GitHub Actions
+  workflow_dispatch:
 
 jobs:
   build-release:
