@@ -1,0 +1,9 @@
+##  TechStack e Arquitetura
+- Padrão de Arquitetura: MVC (Model-View-Controller)
+- CI/CD: GitHub Actions
+- Banco de Dados: DynamoDB AWS (Amazon Web Service)
+- FrontEnd: Sites OpenSource que serão adaptados ao projeto
+- Linguagem Principal: Phyton 
+- Deploy Inicial: Render
+- Deploy Futuro: AWS EC2
+- Integração: Meta WhatsApp Cloud API

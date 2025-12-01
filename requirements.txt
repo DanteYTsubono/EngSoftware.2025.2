@@ -1,3 +1,5 @@
 pytest
 flask
 requests
+boto3
+gunicorn
