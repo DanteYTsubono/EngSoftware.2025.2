@@ -26,9 +26,9 @@ jobs:
         run: pytest     
 
       - name: Configurar Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+        uses: actions/setup-node@v4
+        with:
+           node-version: '20'
 
       - name: Instalar Heroku CLI 
         run: |
