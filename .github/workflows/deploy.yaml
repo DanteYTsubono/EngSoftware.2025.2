@@ -25,6 +25,16 @@ jobs:
       - name: Rodar testes
         run: pytest
 
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Versão estável do Node/npm
+
+      - name: Instalar Heroku CLI
+        run: |
+          npm install -g heroku
+          heroku --version
+
       - name: Deploy no Heroku
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
