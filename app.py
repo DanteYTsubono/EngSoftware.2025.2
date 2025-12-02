@@ -81,6 +81,11 @@ def agendar_mensagem(conteudo: str, data_envio_str: str) -> str:
 
 # --- CONTROLLER (Rotas Flask) ---
 
+@app.route('/', methods=['GET'])
+def home():
+    """Rota raiz para confirmar que a API está ativa."""
+    return "WhatsApp Scheduler API está rodando e pronta para receber agendamentos
+
 @app.route('/schedule', methods=['POST'])
 def schedule_message():
     """Endpoint para agendar a mensagem via API."""
