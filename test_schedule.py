@@ -1,11 +1,12 @@
-# test_schedule.py
+# test_schedule.py (Adaptado para Email)
 
 import requests
 from datetime import datetime, timedelta, timezone
+import os
 
-# 🚨 1. AJUSTE A URL
-# Use o nome do seu aplicativo Heroku. Se você usou o nome padrão, é este:
-HEROKU_APP_URL = "https://whatsapp-future-message-0f7dd7bec338.herokuapp.com/"
+# 🚨 AJUSTE A URL
+# Use o nome do seu aplicativo Heroku com o sufixo:
+HEROKU_APP_URL = "https://whatsapp-future-message-0f7dd7bec338.herokuapp.com/schedule"
 
 def schedule_test_message():
     """Envia uma mensagem de teste agendada para o endpoint do Heroku."""
@@ -15,10 +16,9 @@ def schedule_test_message():
     data_agendamento = future_time.isoformat()
     
     payload = {
-        # 🚨 2. AJUSTE SEU NÚMERO DE WHATSAPP
-        # Formato internacional, ex: +5599999999999
-        "recipient": "5514996509334", 
-        "content": f"Teste Final! Mensagem agendada e enviada pelo scheduler. Hora UTC: {future_time.strftime('%H:%M:%S')}.",
+        # 🚨 CAMPO MUDOU! Use um email VÁLIDO para o teste.
+        "email_address": "seu.email.de.teste@exemplo.com", 
+        "content": f"Teste Final de Email! Mensagem agendada e enviada pelo scheduler. Hora UTC: {future_time.strftime('%H:%M:%S')}.",
         "send_date": data_agendamento
     }
     
@@ -29,7 +29,7 @@ def schedule_test_message():
         
         if response.status_code == 201:
             print("\n✅ SUCESSO NO AGENDAMENTO")
-            print(f"Aguarde 3 minutos. O Agendador (worker) deve enviar a mensagem.")
+            print(f"Aguarde 3 minutos. O Agendador (worker) deve enviar o email.")
         else:
             print(f"\n❌ FALHA NO AGENDAMENTO (Status {response.status_code})")
             print(f"Erro: {response.text}")
